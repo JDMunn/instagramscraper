@@ -1,0 +1,7 @@
+2017-02-09 13:29:36,546 - __main__ - ERROR - Failed to get media for tindervsreality
+Traceback (most recent call last):
+  File "app.py", line 217, in media_gen
+    media = self.fetch_media_json(username, max_id=None)
+  File "app.py", line 243, in fetch_media_json
+    raise ValueError('User {0} is private'.format(username))
+ValueError: User tindervsreality is private
